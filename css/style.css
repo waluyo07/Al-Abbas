@@ -753,7 +753,7 @@ footer .foot .tuk a {
 
 @media (max-width:720px) {
    .navbar {
-      width: 720px;
+      width: auto;
       margin-top: -200px;
       margin-bottom: 10px;
    }
