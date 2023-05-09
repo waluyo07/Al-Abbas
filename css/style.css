@@ -1,0 +1,803 @@
+
+ html {
+    scroll-behavior: smooth;
+ }
+ 
+
+/* nav */
+
+nav {
+    font-size: small;
+    text-shadow: 8px 8px 10px #000000;
+    font-weight: bolder;
+    opacity: 0.8;
+    font-family: 'Verdana', sans-serif;
+}
+
+li {
+   border-right: 3px solid #bbb;
+}
+
+li:last-child {
+   border-right: none;
+}
+
+li a {
+   color: #666;
+}
+
+ul li a:hover {
+   background-color: green;
+   border-radius: 5px;
+}
+
+ul .dropdown-menu {
+   background-color: rgb(8, 8, 0);
+}
+
+ul .dropdown-item:hover {
+   background-color: rgb(255, 30, 0);
+}
+
+
+.collapse form input {
+    margin-top: 10px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.collapse form button {
+   color: #e7e7e7;
+   margin-left: -20px
+}
+
+
+
+blink {
+   animation: 1s linear infinite condemned_blink_effect;
+ }
+ 
+ @keyframes condemned_blink_effect {
+   0% {
+     visibility: hidden;
+   }
+   50% {
+     visibility: hidden;
+   }
+   100% {
+     visibility: visible;
+   }
+ }
+
+/* jumbotron */
+
+ .jumbotron {
+    background-image: url(../images/header/banner_4.jpg);
+    background-size: cover;
+    height: 1200px;
+    text-align: center;
+    padding-top: 300px;
+    margin-top: -200px;
+ }
+
+ .jumbotron p {
+   color: aliceblue;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   font-weight: bold;
+   margin-top: 20px;
+   font-size: x-large;
+ }
+
+ .jumbotron .btn {
+   background-color: rgb(2, 2, 253, 0.7);
+   border: none;
+   border-radius: 20px;
+   width: 200px;
+   font-size: larger;
+   margin-top: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+   padding-left: auto;
+   padding-right: auto;
+   font-weight: bold;
+ }
+
+
+ .jumbotron .display-6 {
+    color: rgb(255, 240, 240);
+    font-size: 100px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(145, 145, 231), 0 0 5px rgb(65, 65, 196);
+    font-weight: bolder;
+    margin-left: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-right: auto;
+    font-family: 'sans-serif';
+ }
+
+/* profil */
+
+.profil {
+   background-image: url(../images/shapes/8.svg);
+   background-size: cover;
+   height: 1300px;
+   background-color: rgba(2, 90, 253, 0.7);
+   padding-top: 70px;
+}
+
+.profil h1 {
+   text-align: center;
+   font-size: 50px;
+   font-weight: bolder;
+   color: whitesmoke;
+   text-decoration: solid;
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(35, 35, 37), 0 0 5px rgb(27, 27, 31);
+   margin-top: 30px;
+   margin-bottom: 50px;
+}
+
+.profil .bawah {
+   display: flex;
+   align-items: top;
+}
+
+.profil h2.t {
+   text-align: right;
+   margin-right: 50px;
+}
+
+.profil .bawah .kiri,.kanan {
+   width: 50%;
+   margin-left: 50px;
+   margin-right: 50px;
+   text-align: justify;
+}
+
+.profil .bawah .kiri p{
+   font-size: 20px;
+   font-style: oblique;
+   background-color: whitesmoke;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.profil .bawah .kanan p{
+   font-size: 20px;
+   font-style: italic;
+   font-family: sans-serif;
+   background-color: rgba(2, 90, 253, 0.7);
+   border-radius: 10px;
+   padding: 10px;
+   color: whitesmoke;
+}
+
+.profil h2.tag {
+   font-size: 25px;
+   font-weight: bold;
+   color: whitesmoke;
+   text-decoration: solid;
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(35, 35, 37), 0 0 5px rgb(27, 27, 31);
+   margin-top: 30px;
+   margin-bottom: 20px;
+   margin-left: 50px;
+}
+
+.profil h2 {
+   font-size: 25px;
+   font-weight: bold;
+   color: whitesmoke;
+   text-decoration: solid;
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(35, 35, 37), 0 0 5px rgb(27, 27, 31);
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+
+.profil .atas {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.profil p.tagline {
+   text-align: justify;
+   font-size: 22px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+}
+
+.gambar .upload img {
+   width: 75%;
+   border-radius: 25px;
+   display: block;
+   margin-top: 10px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.gambar .upload p {
+   font-weight: bold;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+   color: whitesmoke;
+   background-color: rgba(2, 90, 253, 0.7);
+   border-radius: 30px;
+}
+
+.gambar {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* prestasi */
+
+.prestasi {
+   background-image: url(../images/shapes/6.svg);
+   background-size: cover;
+   height: 900px;
+   background-color: rgba(2, 90, 253, 0.7);
+   padding-bottom: 50px;
+   background-position: bottom;
+}
+
+
+.prestasi h1 {
+   text-align: center;
+   font-size: 50px;
+   font-weight: bolder;
+   color: rgb(253, 255, 254);
+   text-decoration: solid;
+   padding-top: 70px;
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(35, 35, 37), 0 0 5px rgb(27, 27, 31);
+}
+
+.prestasi h2 {
+   text-align: left;
+   font-size: 25px;
+   font-weight: bold;
+   color: rgb(255, 250, 250);
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(35, 35, 37), 0 0 5px rgb(27, 27, 31);
+   text-decoration: solid;
+   margin-left: 50px;
+   margin-bottom: 20px;
+}
+
+.prestasi p.ket {
+   margin-left: 50px;
+   margin-right: 50px;
+   text-align: justify;
+   padding: 10px;
+   font-size: 20px;
+   background-color: rgba(245, 245, 245, 0.822);
+   border-radius: 30px;
+   border-color: black;
+   border-style: outset;
+}
+
+.prestasi p.tagline {
+   text-align: center;
+   font-size: 25px;   
+   margin-left: 50px;
+   margin-right: 50px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   
+}
+
+.tahfiz .bonus img {
+   width: 80%;
+   border-radius: 25px;
+   display: block;
+   margin-top: 30px;
+   margin-left: 50px;
+   margin-right: auto;
+}
+
+.tahfiz .bonus p {
+   font-weight: bold;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+   color: whitesmoke;
+   background-color: rgba(2, 90, 253, 0.7);
+   border-radius: 30px;
+}
+
+.tahfiz {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.mathan .bon img {
+   width: 345px;
+   border-radius: 30px;
+   display: block;
+   margin-top: 30px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.h .kel {
+   font-size: 20px;
+   text-align: justify;
+   margin-top: 50px;
+   margin-left: 50px;
+   margin-right: 50px;
+   background-color: rgba(245, 245, 245, 0.822);
+   border-radius: 30px;
+   border-color: black;
+   border-style: outset;
+   padding: 10px;
+}
+
+.h {
+   background-size: cover;
+   height: 800px;
+   background-color: rgba(2, 90, 253, 0.7);
+   padding-bottom: 50px;
+   background-position: top;
+}
+
+.h h2 {
+   text-align: right;
+   font-size: 25px;
+   font-weight: bold;
+   color: whitesmoke;
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(35, 35, 37), 0 0 5px rgb(27, 27, 31);
+   text-decoration: solid;
+   margin-right: 50px;
+   padding-top: 10px;
+}
+.mathan {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding-bottom: 5px;
+}
+
+
+.m {
+   background-image: url(../images/shapes/9.svg);
+   background-size: cover;
+   background-position: bottom;
+   background-color: rgba(2, 90, 253, 0.7);
+}
+
+.m h2 {
+   text-align: center;
+   font-size: 25px;
+   font-weight: bold;
+   color: whitesmoke;
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(35, 35, 37), 0 0 5px rgb(27, 27, 31);
+   text-decoration: solid;
+   padding-top: 40px;
+   padding-bottom: 20px;
+}
+
+.hadits .us img {
+   width: 60%;
+   border-radius: 50px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.m p.tagline {
+   text-align: center;
+   font-size: 20px;
+   background-color: rgba(245, 245, 245, 0.822);
+   border-radius: 30px;
+   border-color: black;
+   border-style: outset;
+   margin-bottom: 30px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.hadits .us p {
+   font-weight: bold;
+   font-size: 20px;
+   margin-top: 5px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   color: rgb(255, 176, 59);
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(35, 35, 37), 0 0 5px rgb(27, 27, 31);
+   
+}
+
+.hadits {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+/* akademis */
+ 
+.akademis {
+   background-color: rgba(2, 90, 253, 0.7);
+   background-image: url(../images/shapes/10.svg);
+   background-size: cover;
+   height: 1500px;
+   
+}
+
+.akademis h1 {
+   padding-top: 70px;
+   margin-bottom: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+   font-size: 50px;
+   color: whitesmoke;
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(35, 35, 37), 0 0 5px rgb(27, 27, 31);
+}
+
+.akademis .bawah {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.akademis .bawah .kiri2 {
+   width: 50%;
+}
+
+.akademis .bawah .kanan2 {
+   width: 50%;
+   margin-left: 50px;
+   margin-right: 50px;
+   text-align: justify;
+   font-size: 25px;
+   background-color: whitesmoke;
+   padding: 20px;
+   border-radius: 10px;
+}
+
+.akademis p.tagline {
+   margin-left: 50px;
+   margin-right: 50px;
+   font-size: 23px;
+   text-align: justify;
+}
+
+.akademis .baris {
+   padding: 15px;
+   display: flex;
+   align-items: top;
+}
+
+.akademis .baris .kiri {
+   width: 50%;
+}
+
+.akademis .baris .kanan {
+   width: 30%;
+   margin-top: 50px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.akademis .baris .kanan1 {
+   width: 30%;
+   margin-top: 50px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+.akademis .baris .kiri1 {
+   width: 50%;
+   margin-right: 50px;
+}
+
+
+.akademis h2 {
+   margin-bottom: 50px;
+   margin-top: 50px;
+   margin-left: 50px;
+   color: whitesmoke;
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(35, 35, 37), 0 0 5px rgb(27, 27, 31);
+}
+
+.akademis .kiri p {
+   margin-left: 50px;
+   text-align: justify;
+   font-size: 25px;
+   background-color: whitesmoke;
+   padding: 20px;
+   border-radius: 10px;
+}
+
+.akademis .kiri1 p {
+   margin-left: 50px;
+   text-align: justify;
+   font-size: 25px;
+   background-color: whitesmoke;
+   padding: 20px;
+   border-radius: 10px;
+}
+
+/* pendaftaran */
+
+.pendaftaran {
+   background-color: rgba(2, 90, 253, 0.7);
+   background-size: cover;
+   width: auto;
+   height: auto;
+   padding-bottom: 30px;
+}
+
+.pendaftaran hr {
+   border-width: 10px;
+   color: rgb(250, 250, 250);
+   width: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20px;
+   margin-bottom: 30px;
+}
+
+.pendaftaran h1 {
+   margin-bottom: 10px;
+   padding-top: 70px;
+   text-align: center;
+   font-family: monospace;
+   font-size: 50px;
+   color: whitesmoke;
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(35, 35, 37), 0 0 5px rgb(27, 27, 31);
+}
+
+.pendaftaran .brosur {
+   display: flex;
+   align-items: center;
+}
+
+.pendaftaran .brosur img {
+   width: 500px;
+   height: 500px;
+   display: block;
+   margin-left: 50px;
+   margin-right: 20px;
+   border-radius: 15px;
+}
+
+.pendaftaran .brosur img.y {
+   display: block;
+   width: 730px;
+   margin-left: 0px;
+   margin-right: 50px;
+}
+
+/* kontak kami */
+
+.maps {
+   background-color: rgba(2, 90, 253, 0.7);
+   background-image: url(../images/shapes/7.svg);
+   background-size: cover;
+   background-position: top;
+}
+
+.maps .wa .left iframe {
+   border-radius: 10px;
+}
+
+.maps .wa {
+   display: flex;
+   align-items: top;
+   padding-top: 70px;
+   height: 500px;
+}
+
+.maps hr {
+   color: whitesmoke;
+   border-width: 5px;
+}
+
+.maps .wa .left h3 {
+   color: whitesmoke;
+}
+.maps .wa .right h3 {
+   color: whitesmoke;
+}
+
+.maps .wa .right p {
+   color: whitesmoke;
+   text-shadow: 1px 2px 2px #090b1b;
+}
+
+.maps .wa .right .daftar {
+   text-decoration: none;
+   text-align: center;
+
+}
+
+.maps .wa .right .daftar p:hover {
+   color: #000000;
+   background-color: green;
+}
+
+.maps .wa .right .daftar p {
+   background-color: #f8f5f5;
+   margin-top: 20px;
+   font-weight: bolder;
+   font-size: 20px;
+   color:  rgba(2, 90, 253, 0.7);
+   padding: 5px;
+   width: 150px;
+   border-radius: 30px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.maps .wa .right .logo {
+   display: flex;
+   align-items: center;
+}
+
+.maps .wa .right img.web {
+   width: 50px;
+   display: block;
+   margin-left: 70px;
+   margin-right: 50px;
+   
+}
+
+.maps .wa .right img.web {
+   border-width: 20px;
+   background-color: #0000004d;
+   border-radius: 20px;
+}
+
+.maps .wa .right img.web:hover {
+   background-color: rgba(2, 90, 253, 0.7);
+}
+
+.maps .wa .left,.right {
+   width: 50%;
+   margin-left: 50px;
+   margin-right: 50px;
+   border-width: 1px;
+   border-style: solid;
+   border-color: whitesmoke;
+   padding: 20px;
+   margin-bottom: 30px;
+}
+
+.dukungan h2 {
+   margin-bottom: 50px;
+   text-align: center;
+   font-size: 50px;
+   font-weight: bolder;
+   color: whitesmoke;
+   text-decoration: solid;
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(35, 35, 37), 0 0 5px rgb(27, 27, 31);
+}
+
+ .dukungan .iklan {
+   display: flex;
+   align-items: center;
+ }
+
+ .dukungan .iklan img {
+   width: 230px;
+   display: block;
+   margin-left: 50px;
+   margin-right: auto;
+   margin-bottom: 50px;
+ }
+
+/* Footer */
+
+footer {
+   background-color: rgb(2, 90, 253);
+}
+
+footer .foot {
+   display: flex;
+   align-items: center;
+}
+
+footer .tik h2 {
+   font-size: 15px;
+   text-align: left;
+   color: whitesmoke;
+
+}
+.foot .tik {
+   padding-top: 5px;
+   width: 50%;
+   display: block;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+footer .foot .tuk {
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+}
+
+footer .foot .tuk a {
+   text-decoration: none;
+   display: block;
+   margin-left: 1px;
+   margin-right: 50px;
+   color: whitesmoke;
+}
+
+
+
+
+/* media mobile */
+
+@media (max-width:720px) {
+   .navbar {
+      width: 720px;
+      margin-top: -200px;
+      margin-bottom: 10px;
+   }
+      
+   .profil {
+      height: auto;
+      width: auto;
+   }
+   
+   .jumbotron {
+      background-size: cover;
+      height: auto;
+      width: auto;
+   }
+
+ 
+   .gambar .upload img {
+      width: 300px;
+      margin-left: 5px;
+      margin-right: 5px;
+   }
+   .gambar {
+      flex-wrap: wrap;
+      display: flex;
+   }
+
+   .gambar .upload p {
+      font-size: 15px;
+   }
+
+   .prestasi p.tagline {
+      text-align: justify;
+   }
+
+   .tahfiz {
+      flex-wrap: wrap;
+      display: flex;
+   }
+
+   .tahfiz .bonus img {
+      width: 300px;
+      margin-right: 5px;
+      margin-left: 5px;
+   }
+
+   
+}
