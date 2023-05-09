@@ -780,6 +780,11 @@ footer .foot .tuk a {
       display: flex;
    }
 
+   img {
+      flex-wrap: wrap;
+      display: flex;
+   }
+
    .gambar .upload p {
       font-size: 15px;
    }
