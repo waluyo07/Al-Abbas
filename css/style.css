@@ -809,7 +809,7 @@ footer .foot .tuk a {
 
 /* media mobile */
 
-@media (min-width:768px) {
+@media (max-width:768px) {
    .navbar {
       width: auto;
       margin-top: -200px;
