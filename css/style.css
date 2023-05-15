@@ -131,6 +131,12 @@ blink {
    padding-top: 70px;
 }
 
+.profil img.atas {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 .profil h1 {
    text-align: center;
    font-size: 50px;
@@ -142,7 +148,7 @@ blink {
    margin-bottom: 50px;
 }
 
-.profil .bawah {
+.profil .up,.down {
    display: flex;
    align-items: top;
 }
@@ -152,14 +158,24 @@ blink {
    margin-right: 50px;
 }
 
-.profil .bawah .kiri,.kanan {
+.profil .up .kiri1,.kanan1 {
    width: 50%;
-   margin-left: 50px;
-   margin-right: 50px;
    text-align: justify;
 }
 
-.profil .bawah .kiri p{
+.profil .up .kiri1 {
+   display: block;
+   margin-left: 50px;
+   margin-right: 10px;
+}
+
+.profil .up .kanan1 {
+   display: block;
+   margin-left: 10px;
+   margin-right: 50px;
+}
+
+.profil .up .kiri1 p{
    font-size: 20px;
    font-style: oblique;
    background-color: whitesmoke;
@@ -167,7 +183,41 @@ blink {
    padding: 10px;
 }
 
-.profil .bawah .kanan p{
+.profil .up .kanan1 p{
+   font-size: 20px;
+   font-style: italic;
+   font-family: sans-serif;
+   background-color: rgba(2, 90, 253, 0.7);
+   border-radius: 10px;
+   padding: 10px;
+   color: whitesmoke;
+}
+.profil .down .kiri2,.kanan2 {
+   width: 50%;
+   text-align: justify;
+}
+
+.profil .down .kiri2 {
+   display: block;
+   margin-left: 50px;
+   margin-right: 10px;
+}
+
+.profil .down .kanan2 {
+   display: block;
+   margin-left: 10px;
+   margin-right: 50px;
+}
+
+.profil .down .kiri2 p{
+   font-size: 20px;
+   font-style: oblique;
+   background-color: whitesmoke;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.profil .down .kanan2 p{
    font-size: 20px;
    font-style: italic;
    font-family: sans-serif;
@@ -198,11 +248,7 @@ blink {
    margin-bottom: 20px;
 }
 
-.profil .atas {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-}
+
 
 .profil p.tagline {
    text-align: justify;
@@ -322,15 +368,6 @@ blink {
    justify-content: center;
 }
 
-.mathan .bon img {
-   width: 345px;
-   border-radius: 30px;
-   display: block;
-   margin-top: 30px;
-   margin-left: 50px;
-   margin-right: 50px;
-}
-
 .h .kel {
    font-size: 20px;
    text-align: justify;
@@ -363,11 +400,32 @@ blink {
    padding-top: 10px;
 }
 .mathan {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-wrap: wrap;
+   
    padding-bottom: 5px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.mathan .bon,.bon1 {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.mathan .bon1 img {
+   width: 380px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20px;
+}
+
+.mathan .bon img {
+   width: 380px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20px;
 }
 
 
@@ -765,7 +823,7 @@ footer .foot .tuk a {
    
    .jumbotron {
       background-size: cover;
-      height: auto;
+      height: 1000px;
       width: auto;
    }
 
@@ -780,13 +838,12 @@ footer .foot .tuk a {
       display: flex;
    }
 
-   img {
-      flex-wrap: wrap;
-      display: flex;
-   }
-
    .gambar .upload p {
       font-size: 15px;
+   }
+
+   .prestasi {
+      height: auto;
    }
 
    .prestasi p.tagline {
@@ -803,6 +860,107 @@ footer .foot .tuk a {
       margin-right: 5px;
       margin-left: 5px;
    }
+   .h {
+      height: auto;
+   }
+   .mathan .bon img {
+      width: 30%;
+   }
+
+   .mathan .bon1 img {
+      width: 30%;
+   }
+
+   .akademis {
+      height: auto;
+   }
+
+   .akademis h2 {
+      margin-top: 2px;
+   }
+
+   .akademis .bawah p.kanan2 {
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 0px;
+   }
+
+   .akademis .baris .kiri p {
+      font-size: 20px;
+      text-align: left;
+   }
+
+   .akademis .baris img.kanan {
+      width: 50%;
+      height: min-content;
+      margin-top: 230px;  
+      margin-left: 20px;   
+   }
+
+
+   .akademis .baris .kiri1 {
+      margin-right: 0px;
+   }
+
+   .akademis .baris .kiri1 h2 {
+      margin-left: 5px;
+   }
+
+   .akademis .baris img.kanan1 {
+      width: 50%;
+      height: min-content;
+      margin-top: 210px;
+      margin-right: 5px;
+      margin-left: 50px;
+      
+      
+   }
+
+   .akademis .baris .kiri1 p {
+      font-size: 20px;
+      text-align: left;
+      margin-right: auto;
+      margin-left: 5px;
+   }
+
+
+   .pendaftaran .brosur {
+      flex-wrap: wrap;
+   }
+
+   .pendaftaran .brosur img.y {
+      width: 90%;
+      margin-top: 20px;
+      margin-left: 50px;
+   }
+
+   .maps .wa {
+      flex-wrap: wrap;
+      height: auto;
+   }
+
+   .maps .wa .left {
+      width: 90%;
+      height: 400px;
+      padding-bottom: 0px;
+   }
+
+   .maps .wa .right {
+      width: 90%;
+      height: 400px;
+   }
+
+   .maps .dukungan .iklan img {
+      width: 10%;
+   }
+
+   .maps .dukungan h2 {
+      font-size: 30px;
+   }
+
+
+
+
 
    
 }
