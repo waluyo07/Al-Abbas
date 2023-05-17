@@ -809,3 +809,163 @@ footer .foot .tuk a {
 
 /* media mobile */
 
+@media (max-width:960px) {
+
+   .pendaftaran .brosur {
+       flex-wrap: wrap;
+   }
+   
+   .pendaftaran .brosur img {
+       max-width: 100%;
+   }
+   
+   .dukungan .iklan {
+       flex-wrap: wrap;
+   }
+   
+   
+   .maps .wa .right .logo {
+       flex-wrap: wrap;
+    justify-content: center;
+   }
+   
+   .logo a {
+       max-width: 30%;
+   }
+   
+   
+   .maps .wa .right img.web {
+       max-width: 100%;
+       margin-left: 20%;
+   }
+   
+   .mathan .bon, .bon1 {
+       flex-wrap: wrap;
+   }
+   
+   .profil {
+       height: auto;
+   }
+   .profil h2.t {
+       text-align: center;
+   }
+   .h {
+       height: auto;
+   }
+   .h h2 {
+    text-align-center;
+   }
+   
+   .mathan {
+       display: flex;
+       flex-wrap: wrap;
+   }
+   
+   .mathan .bon img {
+       max-width: 48%;
+       margin-right: 1%;
+       margin-bottom: 22px;
+   }
+   
+   .gambar {
+       flex-wrap: wrap;
+   }
+   
+   .gambar .upload {
+       width: 50%;
+   }
+   
+   .prestasi {
+    height: auto;
+   
+   }
+   
+   .tahfiz {
+       flex-wrap: wrap;
+   }
+   
+   .prestasi h2 {
+       text-align: center;
+   }
+   
+   .tahfiz .bonus img {
+        margin-left: auto;
+    margin-right: auto;
+   }
+   
+   
+   .akademis {
+       height: auto;
+   }
+   
+   .akademis .baris {
+       align-items: start;
+       flex-wrap: wrap;
+   }
+   
+   .akademis .bawah .kiri2 {
+       display: none;
+   }
+   
+   .akademis .bawah .kanan2 {
+   
+    width: 100%;
+   
+   }
+   
+   .akademis .baris .kiri {
+       width: 100%;
+   }
+   
+   .akademis .kiri p {
+       margin-left: 0;
+   }
+   
+   .akademis .baris .kanan {
+       display: none;
+   }
+   
+   .akademis .baris .kanan1 {
+       width: 50%;
+   }
+   
+   .akademis .baris .kiri1 {
+       width: 100%;
+       margin-right: 20px;
+       margin-left: 20px;
+   }
+   
+   .akademis h2 {
+       text-align: center;
+   margin-right: 50px;
+   }
+   
+   .akademis .kiri1 p {
+       margin-left: 0;
+   
+   }
+   
+   .pendaftaran a {
+       width: 100%;
+       display: flex;
+   }
+   
+   .pendaftaran .brosur img {
+       max-width: 100%;
+       width: 100% !important;
+       height: auto;
+       margin: 0 !important;
+       padding: 50px !important;
+   }
+   
+   .maps .wa {
+       flex-wrap: wrap;
+   height:auto !important;
+   }
+   
+   .dukungan h2 {
+       font-size: 36px;
+   }
+   
+   
+   }
