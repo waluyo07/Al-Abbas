@@ -165,18 +165,22 @@ ul .dropdown-item:hover {
 
 .profil .kiri1 h2 {
    margin-left: 0px;
+   margin-right: 0px;
 }
 
 .profil .kanan1 h2 {
    margin-left: 0px;
+   margin-right: 0px;
 }
 
 .profil .kiri2 h2 {
    margin-left: 0px;
+   margin-right: 0px;
 }
 
 .profil .kanan2 h2 {
    margin-left: 0px;
+   margin-right: 0px;
 }
 
 .profil .up .kiri1 {
@@ -1018,7 +1022,7 @@ footer .foot .tuk a {
 
 }
 
-@media (max-width:960px) {
+@media (max-width:720px) {
 
    
    .pendaftaran .brosur {
