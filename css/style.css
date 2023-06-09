@@ -13,22 +13,25 @@ nav {
 }
 
 ul li a:hover {
-   background-color: blue;
+   background-color: black;
    border-radius: 5px;
 }
 
 ul .dropdown-menu {
-   background-color: rgb(8, 8, 0);
+   background-color: blue;
 }
 
 ul .dropdown-item:hover {
-   background-color: rgb(255, 30, 0);
+   background-color: black;
 }
 
 
 /* header */
 
 header h3.title {
+   background-color: blue;
+   border-radius: 5px;
+   color: white;
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -48,13 +51,16 @@ section#toppage.toppage {
    padding-top: 20px;
 }
 
- section .garis h1.awal {
+ section .garis h1 {
+   background-color: blue;
+   padding-right: 10px;
+   width: fit-content;
    font-weight: bolder;
    border-left: solid;
    padding-left: 10px;
    border-width: 20px;
    border-radius: 5px;
-   border-color: orangered;
+   border-color: white;
  }
 
  section .tulisan p {
@@ -66,7 +72,7 @@ section#toppage.toppage {
    margin-bottom: 50px;
    padding-right: 10px;
    border-width: 20px;
-   border-color: orange;
+   border-color: black;
  }
 
  .info {
@@ -77,6 +83,7 @@ section#toppage.toppage {
    text-shadow: 10px 5px 8px #000000;;
    font-weight: bold;
    text-align: center;
+   background-color: blue;
    text-decoration: none;
    border: outset;
    border-color: white;
@@ -89,11 +96,11 @@ section#toppage.toppage {
  }
 
  .sejarah .teks {
-   border-top: solid;
-   border-width: 15px;
-   box-shadow: 8px 0px #888888;
+   
+   border-width: 5px;
+   box-shadow: 5px 5px 5px 2px #888888;
    border-color: rgba(2, 90, 253);
-   border-radius: 5px;
+   border-radius: 20px;
  }
 
  .sejarah .judul,.judul1 {
@@ -103,7 +110,7 @@ section#toppage.toppage {
  .sejarah .judul h2 {
    font-weight: bold;
    font-size: 30px;
-   padding-top: 20px;
+   padding: 5px;
    margin-bottom: 20px;
    word-wrap: break-word;
    color: rgba(2, 90, 253);
@@ -111,7 +118,7 @@ section#toppage.toppage {
 
  .sejarah .judul1 h2 {
    font-weight: bold;
-   padding-top: 20px;
+   padding: 5px;
    font-size: 30px;
    margin-bottom: 20px;
    word-wrap: break-word;
@@ -119,13 +126,17 @@ section#toppage.toppage {
  }
 
 .sejarah .judul p {
-   font-size: 17px;
+   padding: 10px;
+   border-radius: 10px;
+   color: white;
    text-align: left;
    word-wrap: break-word;
 }
 
 .sejarah .judul1 p {
-   font-size: 17px;
+   padding: 10px;
+   border-radius: 10px;
+   color: white;
    text-align: left;
    word-wrap: break-word;
 }
@@ -493,7 +504,7 @@ section#toppage.toppage {
 }
 
 .akademis .akademi h2 {
-   width: 180px;
+   width: min-content;
    margin-top: 0px;
    margin-bottom: 20px;
    color: white;
@@ -505,7 +516,7 @@ section#toppage.toppage {
    text-align: left;
    padding-left: 10px;
    padding-right: 10px;
-   background-color: blue;
+   background-color: orange;
 }
 
 .akademis .akademi p {
@@ -519,23 +530,51 @@ section#toppage.toppage {
 .kurikulum hr {
    color: white;
    border-top: none;
-   box-shadow: 5px 3px 3px 5px #ffffff;
 }
 
-.kurikulum h3.d-flex {
+.kurikulum h3 {
    align-items: center;
    justify-content: center;
    margin: auto;
    text-align: center;
-   background-color: blue;
+   background-color: orangered;
    padding: 5px;
-   border-left: solid;
-   border-width: 20px;
    color: white;
    border-radius: 5px;
    width: fit-content;
 }
 
+/* review */
+
+.review {
+   background-size: cover;
+}
+
+.review .baris {
+   justify-content: space-around;
+}
+
+.review .baris .testimoni {
+   width: 30%;
+   padding: 20px;
+   box-shadow: 0px 0px 8px 1px #000;
+   background-color: #fff;
+}
+
+.review .profile {
+   display: flex;
+   margin-bottom: 30px;
+   align-items: center;
+}
+
+.review .profile img {
+   height: 80px;
+   margin-right: 30px;
+}
+
+.checked {
+   color: yellow;
+}
 
 /*.akademis .bawah {
    display: flex;
@@ -822,28 +861,66 @@ footer .foot .tuk a {
    padding: 10px;
 }
 
-@media (max-width:414px) {
-   .header {
+@media (max-width:640px) {
+   .header h3.title {
+      font-size: medium;
+      letter-spacing: 1px;
    }
    
    .toppage .tulisan p {
-      font-size: 10px;
+      font-size: 9px;
       margin-top: 10px;
       margin-bottom: 5px;
    }
 
 .toppage .info {
-    padding-bottom: 30px;  
+    padding-bottom: 20px;  
    }
 
    .toppage a.link {
-      font-size: x-small;
+      font-size: 9px;
    }
 
    .toppage h1 {
-      font-size: 15px;
+      font-size: 12px;
+      padding: 5px;
       margin-top: none;
    }
+
+   .sejarah .teks {
+      flex-wrap: nowrap;
+   }
+
+   .sejarah .teks .judul {
+      width: 100%;
+   }
+
+  .sejarah .teks .judul h2 {
+   padding: auto;
+   font-size: 12px;
+   margin-bottom: auto;
+  }
+
+  .sejarah .teks .judul p {
+   font-size: 10px;
+   text-align: justify;
+  }
+
+  .sejarah .teks .judul1 h2 {
+   padding: 0px;
+   font-size: 12px;
+   margin-bottom: auto;
+  }
+
+  .sejarah .teks .judul1 p {
+   color: blue;
+   text-align: justify;
+   font-size: 10px;
+  }
+
+
+  
+
 }
 
 
