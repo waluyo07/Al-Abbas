@@ -47,48 +47,72 @@ header .carousel-inner {
 }
 
 section#toppage.toppage {
-   background-color: rgba(2, 90, 253);
+   background-color: blue;
    padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+section .garis {
+   border-color: rgb(255, 255, 255);
+   background-image: url(../images/header/gedung.jpg);
+   background-size: cover;
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 4px 4px 6px 1px #eeeeee;
+   
 }
 
  section .garis h1 {
-   background-color: blue;
+   background-color: rgb(23, 162, 167);
    padding-right: 10px;
+   margin-bottom: 20px;
    width: fit-content;
    font-weight: bolder;
    border-left: solid;
    padding-left: 10px;
    border-width: 20px;
    border-radius: 5px;
-   border-color: white;
+   border-color: green;
+ }
+
+ section .tulisan {
+   margin-top: 20px;
+   padding-top: 10px;
  }
 
  section .tulisan p {
    text-align: justify;
    color: white;
+   margin-bottom: 20px;
    border-right: solid;
-   margin-top: 30px;
+   box-shadow: 5px 5px 5px rgb(10, 10, 27);
    border-radius: 5px;
-   margin-bottom: 50px;
-   padding-right: 10px;
    border-width: 20px;
-   border-color: black;
+   border-color: green;
  }
 
- .info {
-   padding-bottom: 70px;
+.tulisan .info {
+   padding-bottom: 30px;
+   padding-top: 30px;
  }
-  a.link {
+
+.info a.link {
+   width: fit-content;
+   margin-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 5px;
+   display: block;
    color: white;
    text-shadow: 10px 5px 8px #000000;;
    font-weight: bold;
    text-align: center;
-   background-color: blue;
+   background-color: rgb(15, 141, 10);
    text-decoration: none;
    border: outset;
-   border-color: white;
-   box-shadow: 5px 5px 5px white;
-   padding: 10px;
+   border-color: transparent;
+   box-shadow: 5px 5px 5px rgba(35, 37, 48, 0.856);
+   padding: 5px;
  }
 
  .sejarah {
@@ -110,15 +134,14 @@ section#toppage.toppage {
  .sejarah .judul h2 {
    font-weight: bold;
    font-size: 30px;
-   padding: 5px;
-   margin-bottom: 20px;
+   padding: 1px 0px 5px 0px;
    word-wrap: break-word;
    color: rgba(2, 90, 253);
  }
 
  .sejarah .judul1 h2 {
    font-weight: bold;
-   padding: 5px;
+   padding: 1px 0px 5px 0px;
    font-size: 30px;
    margin-bottom: 20px;
    word-wrap: break-word;
@@ -126,7 +149,7 @@ section#toppage.toppage {
  }
 
 .sejarah .judul p {
-   padding: 10px;
+   padding: 1px 0px 5px 0px;
    border-radius: 10px;
    color: white;
    text-align: left;
@@ -134,16 +157,30 @@ section#toppage.toppage {
 }
 
 .sejarah .judul1 p {
-   padding: 10px;
+   padding: 1px 0px 5px 0px;
    border-radius: 10px;
-   color: white;
+   color: rgba(2, 90, 253);
    text-align: left;
    word-wrap: break-word;
 }
 
-.sejarah .download a.link {
-   border-color: white;
+.sejarah .download {
+   margin: 30px 0px 0px 0px;
+   padding-bottom: 10px;
+}
+
+.sejarah a.link {
    border-radius: 5px;
+   color: white;
+   text-shadow: 10px 5px 8px #000000;;
+   font-weight: bold;
+   text-align: center;
+   background-color: blue;
+   text-decoration: none;
+   border: outset;
+   border-color: transparent;
+   box-shadow: 5px 5px 5px rgba(35, 37, 48, 0.856);
+   padding: 5px;
 }
 
 /*
@@ -907,15 +944,15 @@ footer .foot .tuk a {
   }
 
   .sejarah .teks .judul1 h2 {
-   padding: 0px;
+   padding: auto;
    font-size: 12px;
    margin-bottom: auto;
   }
 
   .sejarah .teks .judul1 p {
    color: blue;
-   text-align: justify;
-   font-size: 10px;
+   text-align: left;
+   font-size: 12px;
   }
 
 
