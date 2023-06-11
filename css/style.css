@@ -10,6 +10,13 @@ nav {
     text-shadow: 8px 8px 10px #000000;
     font-weight: bold;
     font-family: 'Verdana', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+nav .container-lg {
+   border-radius: 30px;
+   background-color: blue;
+   opacity: 0.9;
 }
 
 ul li a:hover {
@@ -25,8 +32,17 @@ ul .dropdown-item:hover {
    background-color: black;
 }
 
+nav .navbar-brand {
+   border-radius: 30px;
+   opacity: 0.9;
+}
 
 /* header */
+
+header#beranda.header {
+   padding-top: 30px;
+   padding-bottom: 50px;
+}
 
 header h3.title {
    background-color: blue;
@@ -48,31 +64,36 @@ header .carousel-inner {
 
 section#toppage.toppage {
    background-color: blue;
-   padding-top: 20px;
-   padding-bottom: 20px;
+   padding-top: 50px;
+   margin-top: 30px;
+   padding-bottom: 70px;
 }
 
 section .garis {
-   border-color: rgb(255, 255, 255);
    background-image: url(../images/header/gedung.jpg);
    background-size: cover;
-   border-radius: 10px;
-   padding: 5px;
-   box-shadow: 4px 4px 6px 1px #eeeeee;
-   
+   padding-top: 20px;
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px 2px #181717;   
 }
 
  section .garis h1 {
-   background-color: rgb(23, 162, 167);
+   background-color: green;
    padding-right: 10px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
    margin-bottom: 20px;
    width: fit-content;
    font-weight: bolder;
    border-left: solid;
+   border-right: solid;
    padding-left: 10px;
-   border-width: 20px;
-   border-radius: 5px;
-   border-color: green;
+   border-width: 10px;
+   border-radius: 10px;
+   border-radius: 10px;
+   border-color: white;
  }
 
  section .tulisan {
@@ -84,6 +105,7 @@ section .garis {
    text-align: justify;
    color: white;
    margin-bottom: 20px;
+   border-left: solid;
    border-right: solid;
    box-shadow: 5px 5px 5px rgb(10, 10, 27);
    border-radius: 5px;
@@ -116,25 +138,31 @@ section .garis {
  }
 
  .sejarah {
-   padding-top: 20px;
+   padding-top: 50px;
+   margin-top: 30px;
  }
 
  .sejarah .teks {
-   
-   border-width: 5px;
-   box-shadow: 5px 5px 5px 2px #888888;
-   border-color: rgba(2, 90, 253);
-   border-radius: 20px;
+   border: solid;
+   border-width: 10px;
+   box-shadow: 8px 8px 8px 4px #888888;
+   border-color: transparent;
+   border-radius: 10px;
  }
 
  .sejarah .judul,.judul1 {
    padding: 10px;
+   border: solid;
+   border-color: transparent;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px 2px #888888;
  }
 
  .sejarah .judul h2 {
    font-weight: bold;
    font-size: 30px;
    padding: 1px 0px 5px 0px;
+   margin-bottom: 20px;
    word-wrap: break-word;
    color: rgba(2, 90, 253);
  }
@@ -149,36 +177,39 @@ section .garis {
  }
 
 .sejarah .judul p {
-   padding: 1px 0px 5px 0px;
+   padding: 1px 5px 5px 5px;
+   font-size: larger;
    border-radius: 10px;
    color: white;
-   text-align: left;
+   text-align: justify;
    word-wrap: break-word;
 }
 
 .sejarah .judul1 p {
-   padding: 1px 0px 5px 0px;
+   padding: 1px 5px 5px 5px;
    border-radius: 10px;
-   color: rgba(2, 90, 253);
+   font-size: larger;
+   color: black;
    text-align: left;
    word-wrap: break-word;
 }
 
 .sejarah .download {
+   padding-top: 30px;
    margin: 30px 0px 0px 0px;
    padding-bottom: 10px;
 }
 
 .sejarah a.link {
-   border-radius: 5px;
+   border-radius: 15px;
    color: white;
    text-shadow: 10px 5px 8px #000000;;
    font-weight: bold;
    text-align: center;
-   background-color: blue;
+   background-color: rgb(10, 126, 0);
    text-decoration: none;
    border: outset;
-   border-color: transparent;
+   border-color: rgba(255, 255, 255, 0.082);
    box-shadow: 5px 5px 5px rgba(35, 37, 48, 0.856);
    padding: 5px;
 }
@@ -510,24 +541,29 @@ section .garis {
 /* akademis */
  
 .akademis {
-   background-color: rgba(2, 90, 253);  
+   background-color: blue;
+   margin-top: 70px;
+   padding-top: 70px;
 }
 
+
 .akademis hr {
-   opacity: 1;
+   opacity: 0.9;
    display: flex;
    text-align: right;
    align-items: last baseline;
 
 }
 
-.akademis img.bg-light {
-   border-radius: 70px;
-   padding: 5px;
+.akademis img {
+   display: block;
+   margin: auto;
+   border-radius: 10px;
+   padding: 10px;
 }
 
 .akademis .ga .akademi {
-   align-items: flex-start;
+   align-items: center;
 }
 
 .akademis video {
@@ -540,33 +576,14 @@ section .garis {
    box-shadow: 8px 8px 8px #ffffff;
 }
 
-.akademis .akademi h2 {
-   width: min-content;
-   margin-top: 0px;
-   margin-bottom: 20px;
-   color: white;
-   text-align: left;
-   border-left: solid;
-   border-width: 20px;
-   color: white;
-   border-radius: 5px;
-   text-align: left;
-   padding-left: 10px;
-   padding-right: 10px;
-   background-color: orange;
-}
 
 .akademis .akademi p {
    text-align: justify;
+   font-size: larger;
 }
 
-.kurikulum .text-center {
-   background-color: black;
-}
-
-.kurikulum hr {
-   color: white;
-   border-top: none;
+.akademis .gbr .tes p {
+   font-size: larger;
 }
 
 .kurikulum h3 {
@@ -574,8 +591,6 @@ section .garis {
    justify-content: center;
    margin: auto;
    text-align: center;
-   background-color: orangered;
-   padding: 5px;
    color: white;
    border-radius: 5px;
    width: fit-content;
@@ -928,31 +943,28 @@ footer .foot .tuk a {
       flex-wrap: nowrap;
    }
 
-   .sejarah .teks .judul {
-      width: 100%;
+   .teks .judul p {
+      font-size: smaller;
    }
 
+   
   .sejarah .teks .judul h2 {
    padding: auto;
-   font-size: 12px;
-   margin-bottom: auto;
+   font-size: 20px;
+   margin-bottom: 10px;
   }
 
-  .sejarah .teks .judul p {
-   font-size: 10px;
-   text-align: justify;
-  }
 
   .sejarah .teks .judul1 h2 {
    padding: auto;
-   font-size: 12px;
-   margin-bottom: auto;
+   font-size: 20px;
+   margin-bottom: 10px;
   }
 
-  .sejarah .teks .judul1 p {
-   color: blue;
+  .teks .judul1 p {
+   font-size: smaller;
+   color: black;
    text-align: left;
-   font-size: 12px;
   }
 
 
