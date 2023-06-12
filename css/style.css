@@ -915,12 +915,21 @@ footer .foot .tuk a {
 
 @media (max-width:640px) {
    .header h3.title {
-      font-size: medium;
+      font-size: 15px;
       letter-spacing: 1px;
+   }
+
+   header#beranda.header {
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+   }
+
+   .toppage {
+      padding-top: 10px;
    }
    
    .toppage .tulisan p {
-      font-size: 9px;
+      font-size: 12px;
       margin-top: 10px;
       margin-bottom: 5px;
    }
@@ -930,11 +939,11 @@ footer .foot .tuk a {
    }
 
    .toppage a.link {
-      font-size: 9px;
+      font-size: 12px;
    }
 
    .toppage h1 {
-      font-size: 12px;
+      font-size: 15px;
       padding: 5px;
       margin-top: none;
    }
@@ -944,27 +953,31 @@ footer .foot .tuk a {
    }
 
    .teks .judul p {
-      font-size: smaller;
+      font-size: 12px;
    }
 
    
   .sejarah .teks .judul h2 {
    padding: auto;
-   font-size: 20px;
+   font-size: 15px;
    margin-bottom: 10px;
   }
 
 
   .sejarah .teks .judul1 h2 {
    padding: auto;
-   font-size: 20px;
+   font-size: 15px;
    margin-bottom: 10px;
   }
 
   .teks .judul1 p {
-   font-size: smaller;
+   font-size: 12px;
    color: black;
    text-align: left;
+  }
+
+  .sejarah .download .link {
+   font-size: 12px;
   }
 
 
