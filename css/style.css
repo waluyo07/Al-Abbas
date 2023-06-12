@@ -201,9 +201,10 @@ section .garis {
 }
 
 .sejarah a.link {
-   border-radius: 15px;
+   border-radius: 10px;
    color: white;
-   text-shadow: 10px 5px 8px #000000;;
+   text-shadow: 10px 5px 8px #000000;
+   font-size: 20px;
    font-weight: bold;
    text-align: center;
    background-color: rgb(10, 126, 0);
@@ -211,8 +212,12 @@ section .garis {
    border: outset;
    border-color: rgba(255, 255, 255, 0.082);
    box-shadow: 5px 5px 5px rgba(35, 37, 48, 0.856);
-   padding: 5px;
+   padding: 10px;
 }
+
+.akademis .gbr .carousel-item {
+   background-color: white;
+  }
 
 /*
 
@@ -569,11 +574,11 @@ section .garis {
 .akademis video {
    margin-top: 0px;
    padding-top: 0px;
-   border-radius: 10px;
+   border-radius: 5px;
    border: solid;
    border-color: transparent;
-   border-width: 5px;
-   box-shadow: 8px 8px 8px #ffffff;
+   border-width: 10px;
+   box-shadow: 8px 8px 8px #1b1b1b;
 }
 
 
@@ -586,8 +591,13 @@ section .garis {
    font-size: larger;
 }
 
+.akademis .kurikulum {
+   padding: 20px;
+}
+
 .kurikulum h3 {
    align-items: center;
+   background-color: green;
    justify-content: center;
    margin: auto;
    text-align: center;
@@ -943,13 +953,17 @@ footer .foot .tuk a {
       padding-top: 10px;
    }
 
+   .sejarah .download {
+      padding-top: 10px;
+   }
+
    .sejarah {
       padding-top: 0px;
    }
 
    section#stqa.akademis {
-      padding-top: 10px;
-      margin-top: 20px;
+      padding-top: 30px;
+      margin-top: 30px;
    }
 
      .toppage .tulisan p {
@@ -1004,7 +1018,33 @@ footer .foot .tuk a {
    font-size: 10px;
   }
 
+  .akademis .gb img {
+   width: 60px;
+   height: 55px;
+  }
 
+  .akademis h3 {
+   background-color: green;
+   font-size: 12px;
+  }
+
+  .akademis .ga p {
+   font-size: 9px;
+   text-align: justify;
+  }
+
+  .akademis  .ga video {
+   width: 200px;
+   height: 125px;
+  }
+
+  .akademis .gbr .tes p {
+   font-size: 9px;
+  }
+
+  .akademis .gbr .carousel-item {
+   background-color: white;
+  }
   
 
 }
