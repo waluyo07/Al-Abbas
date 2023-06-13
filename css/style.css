@@ -1080,7 +1080,32 @@ footer .foot .tuk a {
   .inpo .btn {
    margin-top: 20px;
   }
+
+  .review .baris h3 {
+   text-align: center;
+   font-size: 12px;
+
+  }
+
+  .review .baris p {
+   font-size: 9px;
+   text-align: center;
+  }
+
+  .review .baris .testimoni {
+   padding-left: 4px;
+   padding-right: 3px;
+  }
+
+  .review .profile img {
+   margin: auto;
+  }
   
+  .review .profile {
+   text-align: center;
+   flex-wrap: wrap;
+   margin-bottom: 10px;
+  }
 
 }
 
