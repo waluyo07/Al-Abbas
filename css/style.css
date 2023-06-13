@@ -1034,6 +1034,8 @@ footer .foot .tuk a {
    font-size: 8px;
    text-align: justify;
    margin-top: 10px;
+   margin-bottom: 10px;
+   line-height: 2;
   }
 
   .akademis  .ga video {
@@ -1044,6 +1046,8 @@ footer .foot .tuk a {
   .akademis .gbr .tes p {
    font-size: 8px;
    margin-top: 10px;
+   margin-bottom: 10px;
+   line-height: 2;
   }
 
   .akademis .gbr .carousel-item {
