@@ -63,37 +63,24 @@ header .carousel-inner {
 }
 
 section#toppage.toppage {
-   background-color: blue;
+   background-image: url(../images/header/gedung.jpg);
+   background-size: cover;
    padding-top: 50px;
    margin-top: 30px;
    padding-bottom: 70px;
 }
 
 section .garis {
-   background-image: url(../images/header/gedung.jpg);
-   background-size: cover;
    padding-top: 20px;
    border-radius: 5px;
    box-shadow: 5px 5px 5px 2px #181717;   
 }
 
  section .garis h1 {
-   background-color: green;
-   padding-right: 10px;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;
+   text-shadow: 10px 5px 8px #000000;
    margin-bottom: 20px;
    width: fit-content;
    font-weight: bolder;
-   border-left: solid;
-   border-right: solid;
-   padding-left: 10px;
-   border-width: 10px;
-   border-radius: 10px;
-   border-radius: 10px;
-   border-color: white;
  }
 
  section .tulisan {
@@ -105,11 +92,8 @@ section .garis {
    text-align: justify;
    color: white;
    margin-bottom: 20px;
-   border-left: solid;
-   border-right: solid;
    box-shadow: 5px 5px 5px rgb(10, 10, 27);
    border-radius: 5px;
-   border-width: 20px;
    border-color: green;
  }
 
@@ -126,7 +110,7 @@ section .garis {
    border-radius: 5px;
    display: block;
    color: white;
-   text-shadow: 10px 5px 8px #000000;;
+   text-shadow: 10px 5px 8px #000000;
    font-weight: bold;
    text-align: center;
    background-color: rgb(15, 141, 10);
@@ -885,14 +869,65 @@ section .garis {
    padding: 10px;
  }
 
+ .layanan {
+   background-color: #000000;
+ }
+
+ .layanan .bungkus {
+   background-color: darkblue;
+   border-radius: 10px;
+   font-weight: bolder;
+   font-family: calibri;
+ }
+
+ .layanan p.jdl {
+   border-bottom: solid;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+
+ .layanan .container.d-flex {
+   border: solid;
+   border-width: 10px;
+   border-color: white;
+   border-start-end-radius: 25px;
+   border-start-start-radius: 70px;
+   border-end-end-radius: 100px;
+   border-top-radius: 200px;
+ }
+
+ .layanan .isi p {
+   text-align: justify;
+   word-break:break-all ;
+ }
+
+
+.layanan .gallery {
+   margin: auto;
+  width: auto;
+  height: auto;
+}
+ 
+.layanan .gallery:hover {
+  border: 1px solid #777;
+}
+ 
+.layanan .gallery img {
+  width: 100%;
+  height: auto;
+}
+ 
+
+
+
 /* Footer */
 
 footer {
-   background-color: rgb(2, 90, 253);
+   background-color: rgb(2, 35, 95);
 }
 
 footer .foot {
-   display: flex;
    align-items: top;
    width: auto;
    padding: 10px 0px 10px 0px;
@@ -900,14 +935,13 @@ footer .foot {
    margin-right: 30px;
 }
 
-footer .tik h2 {
-   font-size: 15px;
-   text-align: left;
+footer .tik h6 {
+   text-align: center;
    color: whitesmoke;
 
 }
 .foot .tik {
-   width: 50%;
+   width: 100%;
 }
 
 footer .foot .tuk {
@@ -923,7 +957,40 @@ footer .foot .tuk a {
    padding: 10px;
 }
 
+.sosmed i p.oret {
+   font-size: 10px;
+   margin-bottom: 0px;
+}
+
+.sosmed .container-lg {
+   justify-content: center;
+   width: fit-content;
+   background-color: #000000;
+}
+
+
+.sosmed i {
+   color: white;
+   align-items: center;
+   justify-content: center;
+}
+
+.sosmed a {
+   font-size: 20px;
+   padding: 10px;
+   justify-content: center;
+   align-items: center;
+   background-color: darkblue;
+   width: fit-content;
+   text-align: center;
+   text-decoration: none;
+}
+
 @media (max-width:640px) {
+   .layanan .container.d-flex {
+      flex-wrap: wrap;
+   }
+
    .header h3.title {
       font-size: 12px;
       letter-spacing: 1px;
