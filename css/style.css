@@ -14,27 +14,38 @@ nav {
 }
 
 nav .container-lg {
-   border-radius: 30px;
-   background-color: blue;
-   opacity: 0.9;
+   border-radius: 10px;
+   background-color: rgba(0, 0, 255, 0.507);
+}
+
+ul li {
+   padding: 0px 5px 0px 5px;
+}
+
+ul li.nav-item {
+   width: fit-content;
+}
+
+ul li.nav-item a.nav-link {
+   font-size: 12px;
 }
 
 ul li a:hover {
-   background-color: black;
+   background-color: rgb(204, 0, 0);
    border-radius: 5px;
 }
 
 ul .dropdown-menu {
-   background-color: blue;
-}
-
-ul .dropdown-item:hover {
    background-color: black;
 }
 
+ul .dropdown-item:hover {
+   background-color: rgb(35, 35, 255);
+}
+
 nav .navbar-brand {
-   border-radius: 30px;
-   opacity: 0.9;
+   border-radius: 10px;
+   background-color: darkblue;
 }
 
 /* header */
@@ -530,9 +541,7 @@ section .garis {
 /* akademis */
  
 .akademis {
-   background-color: blue;
-   margin-top: 70px;
-   padding-top: 70px;
+   background-color: darkblue;
 }
 
 
@@ -887,7 +896,7 @@ section .garis {
    padding-bottom: 10px;
  }
 
- .layanan .container.d-flex {
+ .layanan .dua.d-flex {
    border: solid;
    border-width: 10px;
    border-color: white;
@@ -969,13 +978,13 @@ footer .foot .tuk a {
 }
 
 
-.sosmed i {
+.sosmed .container-lg i {
    color: white;
    align-items: center;
    justify-content: center;
 }
 
-.sosmed a {
+.sosmed .container-lg a {
    font-size: 20px;
    padding: 10px;
    justify-content: center;
@@ -987,7 +996,7 @@ footer .foot .tuk a {
 }
 
 @media (max-width:640px) {
-   .layanan .container.d-flex {
+   .layanan .dua.d-flex {
       flex-wrap: wrap;
    }
 
