@@ -1005,7 +1005,10 @@ header {
 
 header.ppdb h1 {
    box-shadow: 8px 8px 8px #1b1b1b;
-   max-width: fit-content;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
    font-weight: bolder;
    font-family: cursive;
    font-size: 30px;
@@ -1014,6 +1017,10 @@ header.ppdb h1 {
    border-width: 8px;
    border-bottom-left-radius: 70px;
    border-bottom-right-radius: 70px;
+}
+
+.ppdb .px-md-5 img {
+   width: fit-content;
 }
 
 .ppdb .container-lg h2 {
@@ -1039,7 +1046,17 @@ header.ppdb h1 {
 }
 
 @media (max-width:640px) {
-   .ppdb .konten .flex-wrap img {
+   
+   .ppdb h1.text-center {
+      font-size: medium;
+      width: fit-content;
+   }
+
+   .ppdb .konten {
+      flex-wrap: wrap;
+   }
+
+   .ppdb .konten img {
       width: 100%;
    }
 
