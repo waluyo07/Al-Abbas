@@ -995,7 +995,62 @@ footer .foot .tuk a {
    text-decoration: none;
 }
 
+/* Pendaftaran */
+
+header {
+   background-color: darkblue;
+   background-image: url(../images/shapes/8.svg);
+   background-size: cover;
+}
+
+header.ppdb h1 {
+   box-shadow: 8px 8px 8px #1b1b1b;
+   max-width: fit-content;
+   font-weight: bolder;
+   font-family: cursive;
+   font-size: 30px;
+   border: solid;
+   padding: 10px 0px 10px 0px;
+   border-width: 8px;
+   border-bottom-left-radius: 70px;
+   border-bottom-right-radius: 70px;
+}
+
+.ppdb .container-lg h2 {
+   border-top-left-radius: 80px;
+   border-top-right-radius: 80px;
+   text-align: center;
+}
+
+.ppdb a {
+   text-decoration: none;
+}
+
+.ppdb button.d-block {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   background-color: darkblue;
+   border-radius: 10px;
+   border-width: 10px;
+   border-color: white;
+   width: max-content;
+   color: white;
+   letter-spacing: 5px;
+   font-size: 50px;
+}
+
 @media (max-width:640px) {
+   .ppdb .konten .flex-wrap img {
+      width: 100%;
+   }
+
+   .ppdb .container-lg h2 {
+      font-size: larger;
+   }
+
+   .ppdb a button.d-block {
+      font-size: larger;
+   }
+
    .layanan .dua.d-flex {
       flex-wrap: wrap;
    }
@@ -1190,6 +1245,9 @@ footer .foot .tuk a {
   }
 
 }
+
+
+
 
 
 
