@@ -1008,25 +1008,33 @@ header.ppdb h1 {
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 50%;
+   width: fit-content;
    font-weight: bolder;
-   font-family: cursive;
-   font-size: 20px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 50px;
    border: solid;
    padding: 10px 0px 10px 0px;
    border-width: 8px;
-   border-bottom-left-radius: 70px;
+   border-bottom-left-radius: 30px;
    border-bottom-right-radius: 70px;
 }
 
-.ppdb .px-md-5 img {
-   width: fit-content;
+.ppdb .container-lg.konten {
+   margin-top: 5%;
+   border-radius: 10px;
+   background-color: #000000a4;
+}
+
+.ppdb img.px-2 {
+   width: 50%;
+   border-radius: 30px;
 }
 
 .ppdb .container-lg h2 {
-   border-top-left-radius: 80px;
-   border-top-right-radius: 80px;
+   border-bottom-left-radius: 100px;
+   border-top-right-radius: 40px;
    text-align: center;
+   box-shadow: 8px 8px 8px #1b1b1b;
 }
 
 .ppdb a {
@@ -1038,11 +1046,13 @@ header.ppdb h1 {
    background-color: darkblue;
    border-radius: 10px;
    border-width: 10px;
+   font-weight: bolder;
    border-color: white;
    width: max-content;
    color: white;
    letter-spacing: 5px;
    font-size: 50px;
+   box-shadow: 8px 8px 8px #1b1b1b;
 }
 
 @media (max-width:640px) {
